@@ -1,0 +1,12 @@
+INSTANTIATE Scene OBJECT
+{
+  Plane OBJECT Plane {}
+  Release_Site_1 RELEASE_SITE
+  {
+   SHAPE = Scene.Plane
+   MOLECULE = X'
+   NUMBER_TO_RELEASE = 1
+   RELEASE_PROBABILITY = 1
+  }
+}
+
