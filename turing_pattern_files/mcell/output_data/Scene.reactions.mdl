@@ -1,0 +1,7 @@
+DEFINE_REACTIONS
+{
+  Hidden; -> Hidden; + A; [1e5]
+  B; -> NULL [1e5]
+  B; + B; + A; -> B; + B; + B; [1e1]
+}
+
