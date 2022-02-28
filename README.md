@@ -7,7 +7,7 @@ From https://biologicalmodeling.org/
 - [x] Simulating particle diffusion
 - [x] Generating Turing patterns with a reaction-diffusion particle simulation
 - [x] Building a diffusion cellular automaton
-- [ ] Implementing the Gray-Scott reaction-diffusion automaton
+- [x] Implementing the Gray-Scott reaction-diffusion automaton
 
 ### Module 1
 
