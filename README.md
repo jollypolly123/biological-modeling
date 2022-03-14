@@ -11,9 +11,9 @@ From https://biologicalmodeling.org/
 
 ### Module 1
 
-- [ ] Hunting for loops in transcription factor networks
-- [ ] Comparing simple regulation to negative autoregulation
-- [ ] Ensuring a mathematically controlled simulation for comparing simple regulation to negative autoregulation
+- [x] Hunting for loops in transcription factor networks
+- [x] Comparing simple regulation to negative autoregulation
+- [x] Ensuring a mathematically controlled simulation for comparing simple regulation to negative autoregulation
 - [ ] Implementing the feed-forward loop motif
 - [ ] Implementing the repressilator
 - [ ] Perturbing the represillator
