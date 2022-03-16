@@ -1,0 +1,11 @@
+DEFINE_REACTIONS
+{
+  X1' -> X1' + Z1' [4e2]
+  Z1' -> NULL [4e2]
+  X2' -> X2' + Y2' [2e2]
+  X2' -> X2' + Z2' [4e3]
+  Y2' + Z2' -> Y2' [4e2]
+  Y2' -> NULL [4e2]
+  Z2' -> NULL [4e2]
+}
+
