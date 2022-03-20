@@ -15,7 +15,7 @@ From https://biologicalmodeling.org/
 - [x] Comparing simple regulation to negative autoregulation
 - [x] Ensuring a mathematically controlled simulation for comparing simple regulation to negative autoregulation
 - [x] Implementing the feed-forward loop motif
-- [ ] Implementing the repressilator
+- [x] Implementing the repressilator
 - [ ] Perturbing the represillator
 
 ### Module 2

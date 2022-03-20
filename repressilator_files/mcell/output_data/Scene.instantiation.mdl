@@ -1,0 +1,33 @@
+INSTANTIATE Scene OBJECT
+{
+  Plane OBJECT Plane {}
+  Release_Site_1 RELEASE_SITE
+  {
+   SHAPE = Scene.Plane
+   MOLECULE = X'
+   NUMBER_TO_RELEASE = 150
+   RELEASE_PROBABILITY = 1
+  }
+  Release_Site_2 RELEASE_SITE
+  {
+   SHAPE = Scene.Plane
+   MOLECULE = HiddenX'
+   NUMBER_TO_RELEASE = 100
+   RELEASE_PROBABILITY = 1
+  }
+  Release_Site_3 RELEASE_SITE
+  {
+   SHAPE = Scene.Plane
+   MOLECULE = HiddenY'
+   NUMBER_TO_RELEASE = 100
+   RELEASE_PROBABILITY = 1
+  }
+  Release_Site_4 RELEASE_SITE
+  {
+   SHAPE = Scene.Plane
+   MOLECULE = HiddenZ'
+   NUMBER_TO_RELEASE = 100
+   RELEASE_PROBABILITY = 1
+  }
+}
+

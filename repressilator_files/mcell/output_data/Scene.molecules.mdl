@@ -1,0 +1,40 @@
+DEFINE_MOLECULES
+{
+  X
+  {
+    DIFFUSION_CONSTANT_2D = 4e-5
+  }
+  Y
+  {
+    DIFFUSION_CONSTANT_2D = 4e-5
+  }
+  Z
+  {
+    DIFFUSION_CONSTANT_2D = 4e-5
+  }
+  HiddenX
+  {
+    DIFFUSION_CONSTANT_2D = 3e-6
+  }
+  HiddenY
+  {
+    DIFFUSION_CONSTANT_2D = 3e-6
+  }
+  HiddenZ
+  {
+    DIFFUSION_CONSTANT_2D = 3e-6
+  }
+  HiddenX_off
+  {
+    DIFFUSION_CONSTANT_2D = 1e-6
+  }
+  HiddenY_off
+  {
+    DIFFUSION_CONSTANT_2D = 1e-6
+  }
+  HiddenZ_off
+  {
+    DIFFUSION_CONSTANT_2D = 1e-6
+  }
+}
+
