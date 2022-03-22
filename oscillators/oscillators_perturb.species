@@ -1,0 +1,13 @@
+# nfsim generated species list for system: 'C:\Users\Lauri\Documents\Academic\CS\biological-modeling\oscillators\oscillators_perturb'
+# warning! this feature is not yet fully tested! 
+hx()  40
+hx_off()  60
+hy()  33
+hy_off()  67
+hz_off()  100
+x(Y~P)  49
+x(Y~U)  2
+y(Y~P)  71
+y(Y~U)  132
+z(Y~P)  26
+z(Y~U)  1

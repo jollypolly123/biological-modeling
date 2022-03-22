@@ -1,0 +1,86 @@
+begin parameters
+ r1 2e3
+ r2 6e2
+ r3 6e2
+ r4 2e2
+ r5 6e2
+  # delay mechanic
+ r6 1e7
+ r7 4e2
+ r8 1e3
+ r9 2e4
+ r10 1e3
+end parameters
+
+begin molecule types
+ x(Y~U~P)
+ y(Y~U~P)
+ z(Y~U~P)
+ hx()
+ hy()
+ hz()
+ hx_off()
+ hy_off()
+ hz_off()
+ null()
+  # delay mechanic
+ delay()
+ a(Y~U~P)
+ b()
+end molecule types
+
+begin species
+ x(Y~U) 150
+ y(Y~U) 0
+ z(Y~U) 0
+ hx() 100
+ hy() 100
+ hz() 100
+ hx_off() 0
+ hy_off() 0
+ hz_off() 0
+ null() 0
+  # Delay mechanic
+ delay() 100
+ a(Y~U) 1000
+ b() 0
+end species
+
+begin observables
+ Molecules X x()
+ Molecules Y y()
+ Molecules Z z()
+ Molecules D delay()
+ Molecules A a()
+ Molecules B b()
+end observables
+
+begin reaction rules
+ # x copy
+ hx() -> hx() + x(Y~U) r1
+ x(Y~U) + hy() -> hy_off() + x(Y~P) r2
+ hy_off() -> hy() r3
+ x(Y~P) -> x(Y~U) r4
+ x() -> null() r5
+ # y copy
+ hy() -> hy() + y(Y~U) r1
+ y(Y~U) + hz() -> hz_off() + y(Y~P) r2
+ hz_off() -> hz() r3
+ y(Y~P) -> y(Y~U) r4
+ y() -> null() r5
+ # z copy
+ hz() -> hz() + z(Y~U) r1
+ z(Y~U) + hx() -> hx_off() + z(Y~P) r2
+ hx_off() -> hx() r3
+ z(Y~P) -> z(Y~U) r4
+ z() -> null() r5
+  # delay rules
+ delay() + a(Y~P) -> delay() + a(Y~U) r6
+ delay() -> null() r7
+ a(Y~U) -> a(Y~P) r8
+ a(Y~P) -> b() r9
+ b() -> y(Y~U) r10
+end reaction rules
+
+# i.e. 12,000 frames at 1e-6 timestep on CellBlender
+simulate_nf({t_end=>.06,n_steps=>60000});
