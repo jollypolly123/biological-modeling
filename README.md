@@ -2,14 +2,14 @@
 
 From https://biologicalmodeling.org/
 
-### Prologue
+### [Prologue](https://github.com/jollypolly123/biological-modeling/tree/main/module-0)
 
 - [x] Simulating particle diffusion
 - [x] Generating Turing patterns with a reaction-diffusion particle simulation
 - [x] Building a diffusion cellular automaton
 - [x] Implementing the Gray-Scott reaction-diffusion automaton
 
-### Module 1
+### [Module 1](https://github.com/jollypolly123/biological-modeling/tree/main/module-0)
 
 - [x] Hunting for loops in transcription factor networks
 - [x] Comparing simple regulation to negative autoregulation
