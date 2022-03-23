@@ -9,7 +9,7 @@ From https://biologicalmodeling.org/
 - [x] Building a diffusion cellular automaton
 - [x] Implementing the Gray-Scott reaction-diffusion automaton
 
-### [Module 1](https://github.com/jollypolly123/biological-modeling/tree/main/module-0)
+### [Module 1](https://github.com/jollypolly123/biological-modeling/tree/main/module-1)
 
 - [x] Hunting for loops in transcription factor networks
 - [x] Comparing simple regulation to negative autoregulation
