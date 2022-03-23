@@ -20,7 +20,7 @@ From https://biologicalmodeling.org/
 
 ### Module 2
 
-- [ ] Getting started with BioNetGen and modeling ligand-receptor dynamics
+- [x] Getting started with BioNetGen and modeling ligand-receptor dynamics
 - [ ] Adding phosphorylation to our BioNetGen model
 - [ ] Modeling bacterial adaptation to changing attractant
 - [ ] Traveling up an attractant gradient
