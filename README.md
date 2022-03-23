@@ -51,3 +51,17 @@ From https://biologicalmodeling.org/
 
 Run `pip -r requirements.txt` (as you do) for Python-related things  
 If you want to open `.blend` files, you'll need to have [Blender](https://www.blender.org/) installed.
+
+### BioNetGen
+
+For each `.bngl` file, run it by using the following command:
+
+```shell
+bionetgen run -i <input_file>.bngl
+```
+
+Then plot the results to get a `.png` file using the following command:
+
+```shell
+bionetgen plot -i <input_file>.gdat
+```
