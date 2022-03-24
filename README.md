@@ -21,7 +21,7 @@ From https://biologicalmodeling.org/
 ### Module 2
 
 - [x] Getting started with BioNetGen and modeling ligand-receptor dynamics
-- [ ] Adding phosphorylation to our BioNetGen model
+- [x] Adding phosphorylation to our BioNetGen model
 - [ ] Modeling bacterial adaptation to changing attractant
 - [ ] Traveling up an attractant gradient
 - [ ] Traveling down an attractant gradient
@@ -51,6 +51,10 @@ From https://biologicalmodeling.org/
 
 Run `pip -r requirements.txt` (as you do) for Python-related things  
 If you want to open `.blend` files, you'll need to have [Blender](https://www.blender.org/) installed.
+
+### MCell and CellBlender
+
+Download from the [homepage](https://mcell.org/download_previous.html).
 
 ### BioNetGen
 
