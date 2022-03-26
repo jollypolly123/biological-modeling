@@ -18,11 +18,11 @@ From https://biologicalmodeling.org/
 - [x] Implementing the repressilator
 - [x] Perturbing the represillator
 
-### Module 2
+### [Module 2](https://github.com/jollypolly123/biological-modeling/tree/main/module-2)
 
 - [x] Getting started with BioNetGen and modeling ligand-receptor dynamics
 - [x] Adding phosphorylation to our BioNetGen model
-- [ ] Modeling bacterial adaptation to changing attractant
+- [x] Modeling bacterial adaptation to changing attractant
 - [ ] Traveling up an attractant gradient
 - [ ] Traveling down an attractant gradient
 - [ ] Modeling a pure random walk strategy
@@ -64,8 +64,12 @@ For each `.bngl` file, run it by using the following command:
 bionetgen run -i <input_file>.bngl
 ```
 
-Then plot the results to get a `.png` file using the following command:
+Then plot the results to get a `.png` file using either of the following commands:
 
 ```shell
 bionetgen plot -i <input_file>.gdat
+```
+
+```shell
+bionetgen plot -i <input_file>.cdat
 ```
