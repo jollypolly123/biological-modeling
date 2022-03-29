@@ -24,7 +24,7 @@ From https://biologicalmodeling.org/
 - [x] Adding phosphorylation to our BioNetGen model
 - [x] Modeling bacterial adaptation to changing attractant
 - [x] Traveling up an attractant gradient
-- [ ] Traveling down an attractant gradient
+- [x] Traveling down an attractant gradient
 - [ ] Modeling a pure random walk strategy
 - [ ] Modeling E. coli's sophisticated random walk algorithm
 - [ ] Comparing different chemotaxis default tumbling frequencies
