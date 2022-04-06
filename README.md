@@ -25,8 +25,8 @@ From https://biologicalmodeling.org/
 - [x] Modeling bacterial adaptation to changing attractant
 - [x] Traveling up an attractant gradient
 - [x] Traveling down an attractant gradient
-- [ ] Modeling a pure random walk strategy
-- [ ] Modeling E. coli's sophisticated random walk algorithm
+- [x] Modeling a pure random walk strategy
+- [x] Modeling E. coli's sophisticated random walk algorithm
 - [ ] Comparing different chemotaxis default tumbling frequencies
 
 ### Module 3
