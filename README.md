@@ -27,12 +27,12 @@ From https://biologicalmodeling.org/
 - [x] Traveling down an attractant gradient
 - [x] Modeling a pure random walk strategy
 - [x] Modeling E. coli's sophisticated random walk algorithm
-- [ ] Comparing different chemotaxis default tumbling frequencies
+- [x] Comparing different chemotaxis default tumbling frequencies
 
 ### Module 3
 
-- [ ] Using ab initio modeling to predict the structure of hemoglobin subunit alpha
-- [ ] Using homology modeling to predict the structure of the SARS-CoV-2 spike protein
+- [x] Using ab initio modeling to predict the structure of hemoglobin subunit alpha
+- [x] Using homology modeling to predict the structure of the SARS-CoV-2 spike protein
 - [ ] Using RMSD to compare the predicted SARS-CoV-2 spike protein against its experimentally validated structure
 - [ ] Finding local differences in the SARS-CoV and SARS-CoV-2 spike protein structures
 - [ ] Visualizing specific regions of interest within the spike protein structure
